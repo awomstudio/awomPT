@@ -1,6 +1,6 @@
 {
   "name": "awompt",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Page transition animation library",
   "main": "ptawom.min.js",
   "scripts": {
