@@ -5,7 +5,7 @@
 Include css file in the head:
 
 ```
-https://unpkg.com/awompt@1.0.4/ptawom.min.css
+https://unpkg.com/awompt@1.0.5/ptawom.min.css
 ```
 
 <br />
@@ -13,7 +13,7 @@ https://unpkg.com/awompt@1.0.4/ptawom.min.css
 Include js file at the bottom of the body:
 
 ```
-https://unpkg.com/awompt@1.0.4/ptawom.min.js
+https://unpkg.com/awompt@1.0.5/ptawom.min.js
 ```
 
 <br />
