@@ -53,7 +53,7 @@ new awomPT('slide', {
 
 The available configuration options are:
 
-First parameter:
+Animation type:
 
 -   `slide`
 -   `fade`
@@ -62,7 +62,7 @@ First parameter:
 -   `slideUp`
 -   `line`
 
-Second parameter:
+Options:
 
 -   `col` | type: `number` | default: `6`<br />
     Number of cols of animation. (available for slide configuration)
