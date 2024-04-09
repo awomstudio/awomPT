@@ -1,0 +1,25 @@
+{
+  "name": "awompt",
+  "version": "1.0.1",
+  "description": "Page transition animation library",
+  "main": "ptawom.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awomstudio/awomPT.git"
+  },
+  "keywords": [
+    "page",
+    "transition",
+    "library",
+    "animation"
+  ],
+  "author": "AWOM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awomstudio/awomPT/issues"
+  },
+  "homepage": "https://github.com/awomstudio/awomPT#readme"
+}
