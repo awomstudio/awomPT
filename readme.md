@@ -5,7 +5,7 @@
 Include css file in the head:
 
 ```
-https://unpkg.com/awompt@1.0.6/ptawom.min.css
+https://unpkg.com/awompt@1.0.6/awompt-min.css
 ```
 
 <br />
@@ -13,7 +13,7 @@ https://unpkg.com/awompt@1.0.6/ptawom.min.css
 Include js file at the bottom of the body:
 
 ```
-https://unpkg.com/awompt@1.0.6/ptawom.min.js
+https://unpkg.com/awompt@1.0.6/awompt-min.js
 ```
 
 <br />
@@ -27,7 +27,7 @@ https://unpkg.com/awompt@1.0.6/ptawom.min.js
 Include this HTML element at the top of the body:
 
 ```
-<div class="ptawom" style="background-color: #000000"></div>
+<div class="awompt" style="background-color: #000000"></div>
 ```
 
 <br />
@@ -35,7 +35,7 @@ Include this HTML element at the top of the body:
 To prevent animation on click of a link, add this class in the HTML element `<a>`:
 
 ```
-<a href="..." class="no_ptawom">
+<a href="..." class="no_awompt">
 ```
 
 <br />

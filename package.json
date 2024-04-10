@@ -1,8 +1,8 @@
 {
   "name": "awompt",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Page transition animation library",
-  "main": "ptawom.min.js",
+  "main": "awompt.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
