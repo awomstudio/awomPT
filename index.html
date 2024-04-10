@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="style.css" rel="stylesheet" />
-        <link href="awompt-min.css" rel="stylesheet" />
+        <link href="awompt.css" rel="stylesheet" />
     </head>
     <body>
         <div class="awompt" style="background-color: black"></div>
@@ -13,12 +13,11 @@
         <div class="second_section">
             <a href="goback/index.html">Click for transition</a>
         </div>
-        <script src="awompt-min.js"></script>
+        <script src="awompt.js"></script>
         <script>
-            new awomPT("zoom", {
-                duration: 1,
-                delay: 0.25,
-                ease: "cubic-bezier(.89,0,.56,.86)",
+            new awomPT("slide", {
+                col: 6,
+                gapDelay: 0.05,
             });
         </script>
     </body>
