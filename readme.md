@@ -5,7 +5,7 @@
 Include css file in the head:
 
 ```
-https://unpkg.com/awompt@1.1.1/minified/awompt-min.css
+https://unpkg.com/awompt@1.1.2/minified/awompt-min.css
 ```
 
 <br />
@@ -13,7 +13,7 @@ https://unpkg.com/awompt@1.1.1/minified/awompt-min.css
 Include js file at the bottom of the body:
 
 ```
-https://unpkg.com/awompt@1.1.1/minifed/awompt-min.js
+https://unpkg.com/awompt@1.1.2/minified/awompt-min.js
 ```
 
 <br />
