@@ -16,6 +16,10 @@
     width: 100%;
     height: 100%;
 }
+.awompt_box.cross_slide {
+    position: relative;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
 /* slide animation */
 .awompt_box.start_animation_slide {
     animation-name: awompt_new_page_slide;
@@ -26,6 +30,20 @@
     bottom: 0;
     rotate: 180deg;
     transform: scaleX(-1);
+}
+.awompt.container_end_animation_slide_2 {
+    top: unset;
+    bottom: 0;
+    rotate: 180deg;
+    transform: scaleY(-1) !important;
+}
+.awompt.container_end_animation_slide_alternate {
+    bottom: unset;
+    top: 0;
+}
+.awompt.container_end_animation_slide_alternate_top {
+    bottom: unset;
+    top: 0;
 }
 .awompt_box.end_animation_slide {
     height: 0%;
@@ -49,6 +67,57 @@
     }
 }
 /* slide animation */
+
+/* horizontal slide animation */
+.awompt_box.start_animation_horizontal_slide {
+    animation-name: awompt_new_page_horizontal_slide;
+    animation-fill-mode: forwards;
+}
+.awompt.container_end_animation_horizontal_slide {
+    left: unset;
+    right: 0;
+    rotate: 180deg;
+    transform: scaleX(-1) !important;
+}
+.awompt.container_end_animation_horizontal_slide_2 {
+    left: unset;
+    right: 0;
+    rotate: 180deg;
+    transform: scaleY(-1) !important;
+}
+.awompt.container_end_animation_horizontal_slide_alternate {
+    left: unset;
+    right: 0;
+}
+.awompt.container_end_animation_horizontal_slide_alternate_top {
+    left: unset;
+    right: 0;
+}
+.awompt_box.end_animation_horizontal_slide {
+    width: 0%;
+    animation-name: awompt_end_page_horizontal_slide;
+    animation-fill-mode: forwards;
+}
+@keyframes awompt_new_page_horizontal_slide {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+@keyframes awompt_end_page_horizontal_slide {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+.awompt.horizontal {
+    display: block;
+}
+/* horizontal slide animation */
 
 /* fade animation */
 .awompt_box.start_animation_fade {
@@ -77,6 +146,49 @@
     }
 }
 /* fade animation */
+
+/* cross slide animation */
+.awompt_box.start_animation_cross_slide {
+    animation-name: awompt_new_page_cross_slide;
+    animation-fill-mode: forwards;
+}
+.awompt_box.end_animation_cross_slide {
+    animation-name: awompt_end_page_cross_slide;
+    animation-fill-mode: forwards;
+}
+.awompt.container_end_animation_cross_slide {
+    transform: scale(-1) !important;
+    rotate: 180deg;
+}
+@keyframes awompt_new_page_cross_slide {
+    from {
+        top: 50%;
+        left: 50%;
+    }
+    to {
+        top: -50%;
+        left: -50%;
+    }
+}
+@keyframes awompt_end_page_cross_slide {
+    from {
+        top: -50%;
+        left: -50%;
+    }
+    to {
+        top: 50%;
+        left: 50%;
+    }
+}
+.cross_slide_boxes_0 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    background-color: black;
+}
+/* cross slide animation */
 
 /* zoom */
 /* .awompt_zoom {

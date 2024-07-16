@@ -5,7 +5,7 @@
 Include css file in the head:
 
 ```
-https://unpkg.com/awompt@1.1.2/minified/awompt-min.css
+<link href="https://unpkg.com/awompt@1.1.3/minified/awompt-min.css" rel="stylesheet" />
 ```
 
 <br />
@@ -13,7 +13,7 @@ https://unpkg.com/awompt@1.1.2/minified/awompt-min.css
 Include js file at the bottom of the body:
 
 ```
-https://unpkg.com/awompt@1.1.2/minified/awompt-min.js
+<script src="https://unpkg.com/awompt@1.1.3/minified/awompt-min.js"></script>
 ```
 
 <br />
@@ -56,6 +56,7 @@ The available configuration options are:
 Animation type:
 
 -   `slide`
+-   `horizontalSlide`
 -   `fade`
 -   `zoom`
 -   `zoomAndSlideUp`
@@ -70,8 +71,28 @@ Options:
 -   `gapDelay` | type: `number` | default: `0.02`<br />
     Delay between cols. (available for slide configuration)
 
+-   `direction` | type: `string` | default: `bottom` and `left`<br />
+    Start direction of the animation. (available for 'slide' and 'horizontalSlide' configuration)
+
+    Types:
+
+        slide:
+        -   `bottom`
+        -   `top`
+        -   `alternate`
+        -   `alternate top`
+
+        horizontalSlide:
+        -   `left`
+        -   `right`
+        -   `alternate`
+        -   `alternate left`
+
 -   `duration` | type: `number` | default: `0.5`<br />
-    Duration time of animation.
+    Duration time of animation opening.
+
+-   `durationClosing` | type: `string` | default: `false`<br />
+    Duration time of animation closing. If false it gets same value of duration.
 
 -   `delay` | type: `number` | default: `0`<br />
     Delay of the animation.
@@ -80,4 +101,4 @@ Options:
     Animation timing function of the page transition.
 
 -   `easeClosing` | type: `string` | default: `false`<br />
-    Animation timing function of the page transition while closing the current page.
+    Animation timing function of the page transition while closing the current page. If false it gets same value of ease.
