@@ -5,7 +5,7 @@
 Include css file in the head:
 
 ```
-<link href="https://unpkg.com/awompt@1.1.3/minified/awompt-min.css" rel="stylesheet" />
+<link href="https://unpkg.com/awompt@1.1.4/minified/awompt-min.css" rel="stylesheet" />
 ```
 
 <br />
@@ -13,7 +13,7 @@ Include css file in the head:
 Include js file at the bottom of the body:
 
 ```
-<script src="https://unpkg.com/awompt@1.1.3/minified/awompt-min.js"></script>
+<script src="https://unpkg.com/awompt@1.1.4/minified/awompt-min.js"></script>
 ```
 
 <br />
@@ -66,10 +66,10 @@ Animation type:
 Options:
 
 -   `col` | type: `number` | default: `6`<br />
-    Number of cols of animation. (available for slide configuration)
+    Number of cols of animation. (available for 'slide' and 'horizontalSlide' configuration)
 
 -   `gapDelay` | type: `number` | default: `0.02`<br />
-    Delay between cols. (available for slide configuration)
+    Delay between cols. (available for 'slide' and 'horizontalSlide' configuration)
 
 -   `direction` | type: `string` | default: `bottom` and `left`<br />
     Start direction of the animation. (available for 'slide' and 'horizontalSlide' configuration)
